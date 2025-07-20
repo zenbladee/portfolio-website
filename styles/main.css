@@ -1,0 +1,78 @@
+body{
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    min-height:100%;
+    background: #020024;
+    background: linear-gradient(180deg,rgba(2, 0, 36, 1) 6%, rgba(30, 30, 148, 1) 65%, rgba(99, 175, 184, 1) 100%);
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.menu{
+    font-family: 'Nunito', sans-serif; 
+    display: flex; /*Displays content in a row*/
+    justify-content: space-between; /*Puts space between buttons and name*/
+    align-items: center;
+    margin: 0;
+    height: 100px;
+} 
+
+.menu p{
+    margin-left: 20px;
+    font-size: 2rem;
+    font-weight: 1000;
+    border-radius: 17px;
+    width: 300px;
+    text-align: center;
+} 
+
+.menu button{
+    color: rgb(201, 201, 201);
+    background: none;
+    text-align: center;
+    font-size: 1rem;
+    height: 30px;
+    width: 90px;
+    margin-right: 20px;
+    font-weight: 800;
+    border: none;
+    cursor: pointer;
+    box-shadow: none;
+    /* border-radius: 10px; */
+}
+
+.menu button:hover{
+    color: black;
+}
+
+.menu .menu-buttons{
+    background: none;
+    box-shadow: none;
+    margin-right: 15px;
+    outline: none;
+    display: flex;
+    gap: 5px;
+    justify-content: flex-end;
+}
+
+/* .cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 80px;
+    width: 100%;
+}
+
+.cards .card{
+    background-color: #FFD7BA;
+    box-shadow: 7px 7px 30px #FEC89A;
+    height: 500px;
+    width: 350px;
+    border-radius: 50px;
+    border: 3px solid #FEC89A;
+} */
+
+
+
