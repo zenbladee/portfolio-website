@@ -1,5 +1,6 @@
 body{
     font-family: 'Nunito', sans-serif;
+    font-size: 16px;
     color: white;
     min-height:100%;
     background: #020024;
@@ -28,7 +29,7 @@ body{
 } 
 
 .menu button{
-    color: rgb(201, 201, 201);
+    color: rgb(255, 255, 255);
     background: none;
     text-align: center;
     font-size: 1rem;
@@ -43,7 +44,7 @@ body{
 }
 
 .menu button:hover{
-    color: black;
+    color: rgb(189, 235, 255);
 }
 
 .menu .menu-buttons{
@@ -55,24 +56,5 @@ body{
     gap: 5px;
     justify-content: flex-end;
 }
-
-/* .cards{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    gap: 80px;
-    width: 100%;
-}
-
-.cards .card{
-    background-color: #FFD7BA;
-    box-shadow: 7px 7px 30px #FEC89A;
-    height: 500px;
-    width: 350px;
-    border-radius: 50px;
-    border: 3px solid #FEC89A;
-} */
-
 
 
